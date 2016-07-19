@@ -1,0 +1,27 @@
+a:link,a:visited{color:black;outline:none;}
+a:hover{text-decoration:none;}
+#listing, #listing TD{BORDER-RIGHT: #ddeeff 1px solid; BORDER-TOP: #ddeeff 1px solid; BORDER-LEFT: #ddeeff 1px solid; BORDER-BOTTOM: #ddeeff 1px solid; BORDER-COLLAPSE: separate; border-spacing: 1px; empty-cells: hide}
+.impair TD{BACKGROUND-COLOR: #CCCCFF;}
+.pair TD{BACKGROUND-COLOR: #CCCCCC;}
+.survol TD{BACKGROUND-COLOR: white;}
+#listing TD{PADDING-LEFT: 2px;PADDING-RIGHT: 2px;}
+#identifiants{WIDTH:20px;}
+#libelles{WIDTH:350px;}
+#actions{WIDTH:150px;text-align:center;}
+#identifiants{WIDTH:20px;}
+#libelles_billet{WIDTH:150px;}
+#familles_billet{WIDTH:150px;}
+#statut_billet{WIDTH:150px;}
+#actions_billet{WIDTH:150px;text-align:center;}
+#listing TFOOT TD{BORDER-RIGHT:0px solid;BORDER-LEFT:0px solid;text-align:center;font-weight:bold;BORDER-TOP:0px solid;BORDER-BOTTOM:0px solid;} 
+/* http://www.developpez.net/forums/showthread.php?t=41076 */
+FORM{font-family: Arial,Helvetica,sans-serif;font-size:12px;}
+FIELDSET{width:900px;background-color:none;}
+LEGEND{color:black;font-weight:bold;margin-right:5px;}
+LABEL {DISPLAY:inline; FLOAT:left; WIDTH:135px; font-weight:normal;margin-left:5px;text-align:right;margin-right:10px}
+INPUT{background-color:#CCCCCC; color:white;height:22px;}
+input.case {background-color:white;height:25px;}
+FORM .BUTTON {border-width:1pt;color:black; background-color:#CCCCCC; }
+#action{text-align:center;margin-bottom:10px;}
+#identification{float:left;}
+#inscription{float:left;padding-left:10px}

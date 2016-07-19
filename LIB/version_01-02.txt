@@ -1,0 +1,19 @@
+
+Version avec PDO
+Les images sont à redimensionner et à télécharger vous-même, selon le pattern [billet-{id du billet}-S.jpg]
+
+Envisageable pour l'avenir...
+
+Utilisateur :
+template html dans le champ texte du billet
+téléchargement d'image depuis le back-office
+redimensionnement d'image
+éditeur de texte
+paginer la page famille
+datapicker et ccontrôle de date
+
+Technique :
+lors de la suppression d'une famille, alerter si elle a des billets ou une sous famille
+lister les billets orphelins
+lister les familles orphelines
+utiliser un moteur de template avec include, type mustache

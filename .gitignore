@@ -1,0 +1,8 @@
+readme.txt
+composer.json
+composer.lock
+vendor
+TEST/**
+LIB/config_db.php
+.git/**
+liste-fichiers.txt 

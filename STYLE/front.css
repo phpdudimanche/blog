@@ -1,0 +1,40 @@
+body{color:black;font-family:Arial,Helvetica,sans-serif;font-size:12px;}
+.logo{display:block;height:16px;padding-left:20px;background-image:url(../STYLE/logo.png);background-repeat:no-repeat;float:left;margin-right:5px;}
+ul,li{line-height:15px;padding-bottom:0px;margin-left:5px;padding-left:5px;list-style-type:none;}
+a{color:red;text-decoration:none;outline:none;}
+.of{color:red;text-decoration:none;}
+a:hover{color:green;text-decoration:none}
+.on{color:green;text-decoration:none;}
+h1{font-size:12px;font-weight:normal;line-height:12px;text-decoration:underline;}
+p{line-height:14px;}
+#conteneur{width:920px;margin:auto;}
+#centre{width:700px;float:left;}
+#cote{width:200px;float:right}
+.menu{background:#DADADA;margin-top:0px;border-left: gray 1px solid;width:170px;padding-bottom:1px;}/* à 40 des billets top:10px;1px fait bien plus*/
+.menu h1{padding-left:22px;padding-top:8px;padding-bottom:5px;line-height:12px;border-bottom:white 2px solid;}
+.menu h3{font-size:12px;font-weight:normal;line-height:1pt;padding-left:22px;}
+.liste{margin-bottom:10px;}
+.les_billets{background:#DADADA;width:700px;border-top: gray 1px solid;border-bottom: gray 1px solid;}
+.billet{width:700px;padding-top:10px;padding-top:10px;border-bottom: white 5px solid;}
+.date{color:black;float:left;padding-right:5px;padding-left:15px;
+/* ajout pour QUESTION */
+background-repeat: no-repeat;background-image: url(../STYLE/fleche-question.gif);background-position: 5px 3px;overflow:visible;
+}
+.titre{font-weight:bold;}
+.stitre{padding-left:45px;font-style:italic;}
+.texte_tronque{padding-left:45px;padding-top:10px;padding-bottom:10px;margin-right:15px;text-align:justify;}/* 30 avant le bouton */
+/* ajout pour QUESTION */
+.texte_tronque h2{font-size:12px;position:relative;padding-left:10px;left:-40px;background-repeat: no-repeat;background-image: url(../STYLE/fleche-reponse.gif);background-position:0px 4px;overflow:visible;}
+.fleches{list-style-image: url(../STYLE/fleche-liste.gif);}
+.texte_tronque ul{list-style-image: url(../STYLE/fleche-liste.gif);}
+hr{visibility:hidden;clear:both;}
+.libelle{padding-top:0px;padding-left:45px;float:left;padding-right:10px;height:20px;}
+.famille{padding-top:0px;padding-left:0px;font-style:normal;height:20px;}
+.texte_gauche{float:right;padding-left:5px;}
+.texte_droite{float:left;padding-right:5px;}
+/*  juste avec un léger espace blanc de séparation */
+.precedent_suivant{display:block;width:700px;margin-bottom:25px;}
+.precedent{float:left;width:350px;text-align:left;}
+.suivant{float:right;width:350px;text-align:right;}
+/* liste numérotée */
+.texte_tronque ol, .texte_tronque li{list-style-type:decimal;}/* liste numérotée */
